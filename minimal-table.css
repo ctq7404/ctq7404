@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    width: 100%; /* Make tables full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Add a subtle shadow for depth */
+    margin: 1em 0; /* Add some margin around your tables */
+}
+
+td, th {
+    padding: 10px 20px;
+    text-align: left; /* Align text to the left for readability */
+    border: 1px solid rgb(190,190,190);
+}
+
+th {
+    background-color: #2e8b57; /* Use your header color for table headers */
+    color: white; /* Use white text for table headers */
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2; /* Use a light gray for every other row */
+}
+
+caption {
+    padding: 10px;
+    text-align: left; /* Align captions to the left */
+}

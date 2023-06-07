@@ -1,0 +1,88 @@
+/* Choose a more modern color scheme */
+body {
+	padding-top:70px;
+    padding-left: 11em;
+    font-family: 'Arial', sans-serif; /* Update the font */
+    color: #333; /* Change text color to a softer black */
+    background-color: #f4f4f4; /* Use a light gray background */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 1000; /* This ensures the navbar stays on top of other elements */
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* This will arrange your links in a row */
+    justify-content: space-around; /* This will evenly distribute your links across the navbar */
+}
+
+ul.navbar li {
+    margin: 0.5em 0;
+}
+
+ul.navbar li:hover {
+    background-color: #ddd;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    color: #2e8b57; /* Give your headers a distinct color */
+}
+
+
+
+ul.navbar a {
+    text-decoration: none;
+}
+
+
+a:link {
+    color: #2e8b57; /* Use your header color for links */
+}
+
+a:visited {
+    color: #2e8b57; /* Keep the link color consistent after visiting */
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+}
+
+/* Update table styles for a cleaner look */
+table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    width: 100%; /* Make tables full width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Add a subtle shadow for depth */
+}
+
+td, th {
+    padding: 10px 20px;
+    text-align: left; /* Align text to the left for readability */
+}
+
+th {
+    background-color: #2e8b57; /* Use your header color for table headers */
+    color: white; /* Use white text for table headers */
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2; /* Use a light gray for every other row */
+}
+
+caption {
+    padding: 10px;
+    text-align: left; /* Align captions to the left */
+}
